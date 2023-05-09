@@ -24,7 +24,7 @@ ALTER TABLE student ALTER COLUMN phone SET DATA TYPE varchar(32)
 INSERT INTO student(first_name, last_name, birth_date, phone)
 VALUES('Ivan', 'Smirnov', '2003-08-10', 8912345),
 		('John', 'King', '2000-01-26', 3009871),
-		('Nick', 'Ivanov', '1991-12-01', 8952123
+		('Nick', 'Ivanov', '1991-12-01', 8952123)
 
 -- 7. Удалить все данные из таблицы со сбросом идентификатор в исходное состояние
 TRUNCATE TABLE student RESTART IDENTITY
